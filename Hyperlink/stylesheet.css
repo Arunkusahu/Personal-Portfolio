@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: black;
+}
+
+.wrapper {
+  background: url("../images/HyperlinkPageBackground/Background3.jpg");
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.wrapper .nav-menu a {
+  position: absolute;
+  top: 6%;
+  right: 180px;
+  height: 40px;
+  width: 170px;
+  color: white;
+  background-color: blue;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper h1 {
+  font-family: 'Roboto', 'Calibri', sans-serif;
+  color: white;
+  padding-left: 7%;
+  padding-top: 7.5vh;
+}
+
+.wrapper #projectinfodiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.wrapper #projectinfo_p {
+  color: white;
+  text-align: justify;
+  padding-left: 50px;
+  padding-top: 5px;
+  width: 40%;
+  line-height: 30px;
+
+}
+
+.wrapper .box-card{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 25vh;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 20px;
+    gap: 40px;   
+}
+
+.wrapper .box-card .card-componet{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 25%;
+  background-color: #002BA1;
+  height: 12vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  justify-content: center;
+  text-align: center;
+}
+
+#carouselExampleIndicators{
+  width: 50%;
+}
+
+.wrapper .box-card .card-componet p,.wrapper .box-card .card-componet a{
+  color: white;
+  margin-left: 10px;
+  width: 70%;
+  height:10vh;
+  text-decoration: none;
+  text-align: justify;
+  text-wrap: wrap;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+
+.wrapper .box-card .card-componet .card-img{
+  height: 100%;
+  width: 28%;
+  align-self: flex-start;
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+/* 2nd page */
+
+.card-section {
+  background: url("../images/HyperlinkPageBackground/Background2.jpg");
+  height: 114vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.card-section .card-container {
+  margin: 0 70px;
+}
+
+.card-section .card-container .card {
+  height: 600px;
+  width: 420px;
+}
+
+.card-section h2{
+  color: yellow;
+  text-align: center;
+  padding-top: 2.2%;
+}
+
+.card-section p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 12px;
+}
+
+.centered-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-section .card-container .card h2{
+  color: blue;
+  top: 30px;
+  justify-content: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  border-bottom: 2px solid darkblue;
+  line-height: 30px;
+}
+
+.card-section .card-container .card p{
+  color: darkblue;
+  top: 30px;
+  justify-content: center;
+  text-align: justify;
+  z-index: 1;
+}
+
+.card-section .card-container .card img{
+  opacity: 0.25;
+  max-width: 100%;
+  height: auto;
+  margin-top: 55%; 
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  z-index: 0;
+}
+
+/* Fotter design Start */
+.ends {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(0, 0, 103);
+  text-align: center;
+  border-top: 5px solid blue;
+}
+
+.ends p {
+  letter-spacing: 1px;
+  color: white;
+}
+
+
+/* mobile resopnsive */
+@media (max-width: 500px) {
+  .wrapper {
+    background: url("../images/HyperlinkPageBackground/MobileBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .wrapper .nav-menu a {
+    top: 5%;
+    right: 20px;
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .wrapper .nav-menu {
+    top: 5%;
+    width: 120px;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .wrapper h1 {
+    font-size: 24px;
+    padding-top: 10vh;
+    text-align: center;
+    padding-right: 25px;
+  }
+  
+  #carouselExampleIndicators {
+    width: 100%;
+    align-self: center;
+  }
+
+  .wrapper #projectinfodiv {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 92%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .wrapper #projectinfo_p {
+    width: 113%;
+    font-size: 19px;
+    line-height: 22px;
+    padding: 28px 36px;
+  }
+
+  .wrapper .box-card {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 20px;
+    /* border: 2px solid white; */
+  }
+
+  .wrapper .box-card .card-componet {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .wrapper .box-card .card-componet .card-img {
+    height: 100%;
+  }
+
+  .wrapper .box-card .card-componet p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .card-section {
+    padding: 20px;
+    margin: 20px 10px;
+    height: auto;
+  }
+
+  .card-section h2 {
+    text-align: center;
+  }
+
+  .card-section .card-container .card h2{
+    justify-content: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid darkblue;
+    line-height: 25px;
+    padding-top: 10px;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 14px;
+  }
+
+  .card-section .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 -40px;
+    padding: 0;
+  }
+
+  .card-section .card-container .card {
+    height: 600px;
+    width: 355px;
+    margin-bottom: 22px;
+  }
+
+  .card img {
+    margin-top: 10px;
+    height: 100%;
+  }
+
+  .card-section h2, .card-section p {
+    padding: 0 5px;
+    line-height: 1.4;
+  }
+}
