@@ -15,7 +15,7 @@ This personal portfolio website is a comprehensive showcase of my work as a deve
 - Installation
 
 
-### Technologies Used
+### Technologies Used 🚀
 
 - HTML5: For structuring the content on the web pages.
 - CSS3: For styling the HTML elements and ensuring a responsive design.
@@ -23,7 +23,7 @@ This personal portfolio website is a comprehensive showcase of my work as a deve
 - Bootstrap: A popular CSS framework for responsive and mobile-first web development.
 
 
-### Features
+### 🎯 Project Goals
 
 1. Responsive Design: The website is fully responsive and works seamlessly on all devices (desktops, tablets, and mobile phones).
 
@@ -35,16 +35,22 @@ This personal portfolio website is a comprehensive showcase of my work as a deve
 Smooth Scrolling: Smooth scrolling effect for a better user experience.
 
 
-### Installation
+### ⚙️ Installation
 
 - Open index.html in your browser to view the portfolio.
 
 
 
-### About developers
+---
 
-- ARUN KUMAR SAHU
-  E-MAIL: aurnkumarsahu634@gmail.com
-  INSTAGRAM: **arunsahu_98**
-  Github: https://github.com/Arunkusahu?tab=repositories
-  Linkdin: https://www.linkedin.com/in/arun-kumar-sahu-18085012b/
+### About Developers✈️
+
+- Made with ❤️ by ARUN KUMAR SAHU 😎
+
+  🔗 E-MAIL: aurnkumarsahu634@gmail.com
+  
+  🔗 INSTAGRAM: **arunsahu_98**
+  
+  🔗 Github: https://github.com/Arunkusahu?tab=repositories
+  
+  🔗 Linkdin: https://www.linkedin.com/in/arun-kumar-sahu-18085012b/
